@@ -1,8 +1,8 @@
 <?php
 
-# Tabler: Função que gera tabela HTML a partir de arrays [L]
+# HTMLer: Funções que geram código HTML com conteúdo dinâmic [L]
 
-# string = tabler($array[array[value], $array[headers])
+# tabler: gera tabelas :: string = tabler($array[array[value], $array[headers])
 
 function tabler($c, $h)
 {
